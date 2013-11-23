@@ -1,8 +1,7 @@
 package com.example.turisvalpo;
 
-import cl.telematica.mapsv2example.R;
-import cl.telematica.mapsv2example.interfaces.LocationListenerHandler;
-import cl.telematica.mapsv2example.location.ActiveLocationManagerActivity;
+import com.example.turisvalpo.interfaces.LocationListenerHandler;
+import com.example.turisvalpo.location.ActiveLocationManagerActivity;
 
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -15,7 +14,6 @@ import com.google.android.gms.maps.model.Marker;
 
 import android.location.Location;
 import android.os.Bundle;
-import android.app.Activity;
 import android.view.Menu;
 
 public class VistaGeneral extends ActiveLocationManagerActivity {
@@ -25,7 +23,7 @@ public class VistaGeneral extends ActiveLocationManagerActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_vista_general);
 		
 		mMap = ((SupportMapFragment) getSupportFragmentManager()
 										.findFragmentById(R.id.map)).getMap();

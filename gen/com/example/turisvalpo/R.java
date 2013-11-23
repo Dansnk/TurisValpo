@@ -224,20 +224,22 @@ containing a value of this type.
         public static final int google_play_services_version=0x7f070000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_vista_general=0x7f030001;
+        public static final int activity_creditos=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_vista_general=0x7f030002;
     }
     public static final class menu {
-        public static final int localizacion=0x7f0a0000;
-        public static final int main=0x7f0a0001;
-        public static final int vista_general=0x7f0a0002;
+        public static final int creditos=0x7f0a0000;
+        public static final int localizacion=0x7f0a0001;
+        public static final int main=0x7f0a0002;
+        public static final int vista_general=0x7f0a0003;
     }
     public static final class string {
         public static final int Button1=0x7f06001d;
         public static final int Button2=0x7f06001e;
         public static final int Button3=0x7f06001f;
         public static final int action_settings=0x7f06001b;
-        public static final int android_gcm_api_key=0x7f060022;
+        public static final int android_gcm_api_key=0x7f060024;
         public static final int app_name=0x7f06001a;
         /**   Title for notification shown when GooglePlayServices needs to be
         enabled for a application to work. [CHAR LIMIT=70] 
@@ -335,7 +337,9 @@ containing a value of this type.
          */
         public static final int common_signin_button_text_long=0x7f060013;
         public static final int hello_world=0x7f060021;
+        public static final int title_activity_creditos=0x7f060022;
         public static final int title_activity_localizacion=0x7f060020;
+        public static final int title_activity_vista_general=0x7f060023;
     }
     public static final class style {
         /** 

@@ -44,6 +44,14 @@
             android:name="com.example.turisvalpo.Localizacion"
             android:label="@string/title_activity_localizacion" >
         </activity>
+        <activity
+            android:name="com.example.turisvalpo.Creditos"
+            android:label="@string/title_activity_creditos" >
+        </activity>
+         <activity
+            android:name="com.example.turisvalpo.VistaGeneral"
+            android:label="@string/title_activity_vista_general" >
+        </activity>
     </application>
 
 </manifest>

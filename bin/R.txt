@@ -69,16 +69,18 @@ int id satellite 0x7f050002
 int id terrain 0x7f050003
 int id textView1 0x7f050005
 int integer google_play_services_version 0x7f070000
-int layout activity_main 0x7f030000
-int layout activity_vista_general 0x7f030001
-int menu localizacion 0x7f0a0000
-int menu main 0x7f0a0001
-int menu vista_general 0x7f0a0002
+int layout activity_creditos 0x7f030000
+int layout activity_main 0x7f030001
+int layout activity_vista_general 0x7f030002
+int menu creditos 0x7f0a0000
+int menu localizacion 0x7f0a0001
+int menu main 0x7f0a0002
+int menu vista_general 0x7f0a0003
 int string Button1 0x7f06001d
 int string Button2 0x7f06001e
 int string Button3 0x7f06001f
 int string action_settings 0x7f06001b
-int string android_gcm_api_key 0x7f060022
+int string android_gcm_api_key 0x7f060024
 int string app_name 0x7f06001a
 int string auth_client_needs_enabling_title 0x7f060015
 int string auth_client_needs_installation_title 0x7f060016
@@ -108,7 +110,9 @@ int string common_google_play_services_update_title 0x7f060007
 int string common_signin_button_text 0x7f060012
 int string common_signin_button_text_long 0x7f060013
 int string hello_world 0x7f060021
+int string title_activity_creditos 0x7f060022
 int string title_activity_localizacion 0x7f060020
+int string title_activity_vista_general 0x7f060023
 int style AppBaseTheme 0x7f090000
 int style AppTheme 0x7f090001
 int[] styleable AdsAttrs { 0x7f010000, 0x7f010001 }
