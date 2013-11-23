@@ -9,5 +9,8 @@
     <string name="Button3">Créditos</string>
     <string name="title_activity_localizacion">Localizacion</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string name="android_gcm_api_key">AIzaSyDZBEr2kZ78cEPD7zkAKwYMWYALPYdwdMc</string>
+    
 
 </resources>
