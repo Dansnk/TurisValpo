@@ -70,8 +70,9 @@ int id terrain 0x7f050003
 int id textView1 0x7f050005
 int integer google_play_services_version 0x7f070000
 int layout activity_creditos 0x7f030000
-int layout activity_main 0x7f030001
-int layout activity_vista_general 0x7f030002
+int layout activity_localizacion 0x7f030001
+int layout activity_main 0x7f030002
+int layout activity_vista_general 0x7f030003
 int menu creditos 0x7f0a0000
 int menu localizacion 0x7f0a0001
 int menu main 0x7f0a0002
