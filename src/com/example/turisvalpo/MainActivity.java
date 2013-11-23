@@ -19,6 +19,18 @@ public class MainActivity extends Activity {
 		final Button Button2 = (Button) findViewById(R.id.button2);
 		final Button Button3 = (Button) findViewById(R.id.button3);
 		
+		Button2.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(MainActivity.this, VistaGeneral.class);
+				startActivity(intent);
+				
+			}
+		});
+	
+		
+		
 		Button3.setOnClickListener(new OnClickListener() {
 			
 			@Override
