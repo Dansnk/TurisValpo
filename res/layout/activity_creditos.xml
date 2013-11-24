@@ -6,11 +6,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Creditos" >
+    tools:context=".Creditos"
+    android:background="#000000" >
 
     <TextView
+        android:id="@+id/txt"
+        android:textColor="#ffffff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/desarrollado" />
+    
+    <TextView 
+        android:id="@+id/daniel"
+        android:textColor="#ffffff"        
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/antonio"
+        android:layout_alignRight="@+id/antonio"
+        android:layout_marginTop="33dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/daniel" />
+    <TextView
+        android:id="@+id/antonio"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/daniel"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/antonio" />
 
 </RelativeLayout>

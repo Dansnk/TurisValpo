@@ -3,16 +3,23 @@
 
     <string name="app_name">TurisValpo</string>
     <string name="action_settings">Settings</string>
-    <string name="bienvenido">Bienvenido a TurisValpo, seleccióne la opción a continuación:</string>
-    <string name="Button1">¿Dónde me encuentro?</string>
+    
+    <string name="bienvenido">¡Bienvenido a TurisValpo!</string>
+    <string name="introduccion">A continuación seleccione lo que desee saber:</string>
+    <string name="Button1">¿A dónde ir?</string>
     <string name="Button2">Vista General</string>
     <string name="Button3">Créditos</string>
-    <string name="title_activity_localizacion">Localizacion</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_creditos">Creditos</string>  
-    <string name="title_activity_vista_general">Vista General</string>
-    <string name="android_gcm_api_key">AIzaSyDZBEr2kZ78cEPD7zkAKwYMWYALPYdwdMc</string>
+    <string name="imagen">Valparaíso, Chile</string>
     
+    <string name="title_activity_vista_general">Vista General</string>
+    <string name="title_activity_localizacion">Localizacion</string>
+    <string name="title_activity_creditos">Créditos</string>
+    <string name="title_activity_vista_especifica">¿A dónde ir?</string>
 
+    <string name="android_gcm_api_key">AIzaSyDZBEr2kZ78cEPD7zkAKwYMWYALPYdwdMc</string>
 
+    <string name="desarrollado">Aplicación desarrollada por:</string>    
+    <string name="daniel">Daniel Veas</string>
+    <string name="antonio">Antonio Cayulao</string>
+        
 </resources>

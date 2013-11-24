@@ -6,30 +6,41 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:background="#000000" >
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/bienvenido" />
+        android:text="@string/introduccion"
+        android:textSize="16sp"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="60dp"
-        android:text="@string/Button1" />
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:text="@string/Button1"
+        android:background="#161616"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
         android:layout_centerVertical="true"
-        android:layout_marginTop="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="63dp"
+        android:layout_marginLeft="43dp"
+        android:background="#161616"
+        android:textColor="#ffffff"
         android:text="@string/Button2" />
 
     <Button
@@ -37,8 +48,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button2"
+        android:layout_alignRight="@+id/button2"
         android:layout_below="@+id/button2"
-        android:layout_marginTop="43dp"
+        android:layout_marginTop="23dp"
+        android:background="#161616"
+        android:textColor="#ffffff"
         android:text="@string/Button3" />
-
+    
+    <ImageView 
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/valpoturistico"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/button3"
+        android:contentDescription="@string/imagen" />
+        
 </RelativeLayout>
