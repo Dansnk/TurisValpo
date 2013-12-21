@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="17" />
 
     <permission
         android:name="com.hs.android.permission.MAPS_RECEIVE"
@@ -47,10 +47,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.turisvalpo.Localizacion"
-            android:label="@string/title_activity_localizacion" >
-        </activity>
-        <activity
             android:name="com.example.turisvalpo.Creditos"
             android:label="@string/title_activity_creditos" >
         </activity>
@@ -61,6 +57,182 @@
         <activity
             android:name="com.example.turisvalpo.VistaGeneral"
             android:label="@string/title_activity_vista_general" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Alegre"
+            android:label="@string/title_activity_alegre" >
+        </activity>
+        <activity
+            android:name=".cerros.Artilleria"
+            android:label="@string/title_activity_artilleria" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Baron"
+            android:label="@string/title_activity_baron" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Blanco"
+            android:label="@string/title_activity_blanco" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Bellavista"
+            android:label="@string/title_activity_bellavista" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Concepcion"
+            android:label="@string/title_activity_concepcion" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Cordillera"
+            android:label="@string/title_activity_cordillera" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Delicias"
+            android:label="@string/title_activity_delicias" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.El_Litre"
+            android:label="@string/title_activity_el__litre" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.El_Molino"
+            android:label="@string/title_activity_el__molino" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Esperanza"
+            android:label="@string/title_activity_esperanza" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Jimenez"
+            android:label="@string/title_activity_jimenez" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Larrain"
+            android:label="@string/title_activity_larrain" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.La_Cruz"
+            android:label="@string/title_activity_la__cruz" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Carcel"
+            android:label="@string/title_activity_carcel" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Lecheros"
+            android:label="@string/title_activity_lecheros" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Rodelillo"
+            android:label="@string/title_activity_rodelillo" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Rodriguez"
+            android:label="@string/title_activity_rodriguez" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Polanco"
+            android:label="@string/title_activity_polanco" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Molino"
+            android:label="@string/title_activity_molino" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Ramaditas"
+            android:label="@string/title_activity_ramaditas" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Rocuant"
+            android:label="@string/title_activity_rocuant" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.San_Roque"
+            android:label="@string/title_activity_san__roque" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.OHiggins"
+            android:label="@string/title_activity_ohiggins" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Santa_Elena"
+            android:label="@string/title_activity_santa__elena" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Merced"
+            android:label="@string/title_activity_merced" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Pajonal"
+            android:label="@string/title_activity_pajonal" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Virgen"
+            android:label="@string/title_activity_virgen" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Monjas"
+            android:label="@string/title_activity_monjas" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Las_Canas"
+            android:label="@string/title_activity_las__canas" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Mariposas"
+            android:label="@string/title_activity_mariposas" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Sn_Juan_de_Dios"
+            android:label="@string/title_activity_sn__juan_de__dios" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Florida"
+            android:label="@string/title_activity_florida" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Yungay"
+            android:label="@string/title_activity_yungay" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.La_Loma"
+            android:label="@string/title_activity_la__loma" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Panteon"
+            android:label="@string/title_activity_panteon" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.San_Francisco"
+            android:label="@string/title_activity_san__francisco" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Toro"
+            android:label="@string/title_activity_toro" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Sto_Domingo"
+            android:label="@string/title_activity_sto__domingo" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Carretas"
+            android:label="@string/title_activity_carretas" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Arrayan"
+            android:label="@string/title_activity_arrayan" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Perdices"
+            android:label="@string/title_activity_perdices" >
+        </activity>
+        <activity
+            android:name="com.example.turisvalpo.cerros.Playa_Ancha"
+            android:label="@string/title_activity_playa__ancha" >
+        </activity>
+        <activity
+            android:name=".cerros.Placeres"
+            android:label="@string/title_activity_playa__ancha" >
         </activity>
     </application>
 

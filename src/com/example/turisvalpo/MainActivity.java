@@ -24,7 +24,11 @@ public class MainActivity extends Activity {
 		final Button Button2 = (Button) findViewById(R.id.button2);
 		final Button Button3 = (Button) findViewById(R.id.button3);
 		
-		Toast.makeText(getApplicationContext(), getString(R.string.bienvenido), Toast.LENGTH_SHORT).show();
+		@SuppressWarnings("deprecation")
+		final Object object = getLastNonConfigurationInstance();
+		
+		if(object == null)
+			Toast.makeText(getApplicationContext(), getString(R.string.bienvenido), Toast.LENGTH_SHORT).show();
 		Button1.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -48,7 +52,7 @@ public class MainActivity extends Activity {
 		
 		Button3.setOnClickListener(new OnClickListener() {
 			
-			@Override
+			@Override 
 			public void onClick(View v) {
 				Intent intent = new Intent(MainActivity.this, Creditos.class);
 				startActivity(intent);
@@ -79,6 +83,12 @@ public class MainActivity extends Activity {
 		super.onDestroy();
 		
 		timestamp = Calendar.getInstance().getTimeInMillis();
+	}
+	
+	@Override
+	public Object onRetainNonConfigurationInstance() {
+		Object object = new Object();
+	    return object;
 	}
 
 }
