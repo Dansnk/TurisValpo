@@ -34,7 +34,7 @@ public class VistaGeneral extends ActiveLocationManagerActivity {
 		
 		LatLng valparaiso = new LatLng(-33.045832,-71.620309);
 		CameraPosition camPos = new CameraPosition.Builder()
-		        .target(valparaiso)   //Centramos el mapa en Madrid
+		        .target(valparaiso)   //Centramos el mapa en Valparaiso
 		        .zoom(13)         //Establecemos el zoom en 19
 		        .bearing(185)      //Establecemos la orientación con el noreste arriba
 		        .tilt(70)         //Bajamos el punto de vista de la cámara 70 grados

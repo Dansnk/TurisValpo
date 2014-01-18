@@ -9,9 +9,12 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
 import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
+import android.graphics.drawable.BitmapDrawable;
 import android.location.Location;
 import android.os.Bundle;
 import android.view.Menu;
@@ -34,6 +37,32 @@ public class VistaEspecifica extends ActiveLocationManagerActivity {
 				setUpMap(loc);
 			}
         };
+        
+        mMap.addMarker(new MarkerOptions()
+        		.position(new LatLng(-33.053853,-71.622859))
+        		.title("La Sebastiana")
+        		.snippet("Texto"));
+        
+        mMap.addMarker(new MarkerOptions()
+        		.position(new LatLng(-33.046497, -71.620971))
+        		.title("Museo Historia Natural Valparaiso")
+        		.snippet("holi"));
+       
+        mMap.addMarker(new MarkerOptions()
+				.position(new LatLng(-33.05058,-71.618074))
+				.title("Ascensor Mariposa")
+				.snippet("holi")
+				.icon(BitmapDescriptorFactory.fromResource(R.drawable.butterfly)));
+        
+        mMap.addMarker(new MarkerOptions()
+				.position(new LatLng(-33.034355,-71.596337))
+				.title("Cerro Placeres")
+				.snippet("UTFSM")
+				.icon(BitmapDescriptorFactory.fromResource(R.drawable.usm)));
+        
+        setMarkerTuristicPlace(new LatLng(-33.038349, -71.628301), "Monumento a los heroes", "Arturo Prat");
+        setMarkerMuseum(new LatLng(-33.038569,-71.628685),"Museo In Situ" ,"Cerrado por Daños Estructurales");
+        
 	}
 
 	@Override
@@ -74,5 +103,20 @@ public class VistaEspecifica extends ActiveLocationManagerActivity {
 			}
 		}
 	}
-
+	
+	private void setMarkerTuristicPlace(LatLng position, String titulo, String info) {
+		  Marker myMaker = mMap.addMarker(new MarkerOptions()
+		       .position(position)
+		       .title(titulo)
+		       .snippet(info)
+		       .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
+		}
+	
+	private void setMarkerMuseum(LatLng position, String titulo, String info) {
+		  Marker myMaker = mMap.addMarker(new MarkerOptions()
+		       .position(position)
+		       .title(titulo)
+		       .snippet(info)
+		       .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA)));
+		}
 }
